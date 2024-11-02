@@ -123,7 +123,7 @@ const data = [
       {
         question: "Qual é uma das soluções propostas para reduzir o impacto ambiental das bitucas de cigarro?",
         options: [
-          "Incentivar campanhas de conscientização e instalação de lixeiras específicas para bitucas  ",
+          "Incentivar campanhas de conscientização e instalação de lixeiras específicas para bitucas.",
            "Proibir completamente o uso de cigarros.", 
            "Criar produtos alternativos que não poluam.", 
            "Aumentar os impostos sobre cigarros."
