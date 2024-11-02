@@ -3,31 +3,56 @@ const data = [
     category: "O Tabaco e a Saúde de Todos",
     questions: [
       {
-        question: "O cigarro afeta o sistema imunológico?",
-        options: ["Sim", "Não", "Talvez", "Apenas o respiratório"],
-        answer: "Sim",
+        question: " Quais são alguns dos malefícios do tabaco para o sistema respiratório?",
+        options: [
+          "O tabaco aumenta a capacidade pulmonar e fortalece os alvéolos.", 
+          "O tabaco é uma das causas principais de doenças respiratórias crônicas, como DPOC e enfisema.", 
+          "O tabaco previne infecções respiratórias e melhora a função pulmonar.", 
+          "O tabaco não afeta o sistema respiratório."
+        ],
+        answer: "O tabaco é uma das causas principais de doenças respiratórias crônicas, como DPOC e enfisema.",
         tip: "É meio óbvio",
       },
       {
-        question: "Fumar pode causar câncer além do câncer de pulmão?",
-        options: ["Com Certeza", "Não", "Nem causa Cancêr de Pulmão", "Talvez"],
-        answer: "Com Certeza",
+        question: "Quais são algumas das complicações para a fertilidade e gravidez associadas ao tabagismo?",
+        options: [
+          "Aumento da fertilidade e diminuição dos riscos de complicações na gravidez.",
+           "Redução dos riscos de parto prematuro e maior chance de gravidez saudável.", 
+           "Aumento do peso ao nascer e diminuição do risco de malformações.", 
+           "Aumento do risco de menopausa precoce, parto prematuro e malformações no bebê."
+          ],
+        answer: "Aumento do risco de menopausa precoce, parto prematuro e malformações no bebê.",
         tip: "Resposta Afirmativa",
       },
       {
-        question: "Quais são os riscos do fumo passivo?",
-        options: ["Nenhum, pois só o fumante é afetado.", "Doenças cardíacas e até de câncer", "Reduz o risco de doenças em quem está perto de fumantes.", "É prejudicial apenas para crianças pequenas."],
-        answer: "Doenças cardíacas e até de câncer",
+        question: "Qual é o componente químico do tabaco responsável pela dependência física e psicológica?",
+        options: [
+          "Nicotina",
+           "Formaldeído",
+            "Monóxido de carbono",
+             "Alcatrão"
+            ],
+        answer: "Nicotina",
       },
       {
-        question: "Quais são os efeitos do cigarro na pele?",
-        options: ["O cigarro ajuda a pele a manter-se hidratada.", "Ele causa envelhecimento precoce e perda de colágeno, formando rugas.", "Não tem nenhum efeito visível na pele.", "Protege a pele dos raios UV."],
-        answer: "Ele causa envelhecimento precoce e perda de colágeno, formando rugas.",
+        question: "Qual é o principal risco à saúde associado ao consumo de tabaco?",
+        options: [
+          "Doenças cardíacas", 
+          "Doenças respiratórias",
+           "Doenças renais", 
+           "Todas as opções acima"
+          ],
+        answer: "Todas as opções acima",
       },
       {
-        question: "Quais são os principais efeitos do cigarro no sistema respiratório?",
-        options: ["Não afeta o sistema respiratório.", "Aumenta o fluxo de oxigênio no sangue", "Irrita as vias aéreas e pode causar doenças como enfisema e câncer de pulmão.", "Melhora a capacidade respiratória e aumenta a energia."],
-        answer: "Irrita as vias aéreas e pode causar doenças como enfisema e câncer de pulmão.",
+        question: "Qual é o efeito da nicotina sobre o sistema nervoso central?",
+        options: [
+          "Aumenta a sonolência", 
+          "Diminui a pressão arterial",
+           "Estimula a produção de dopamina",
+            "Reduz o nível de alerta"
+          ],
+        answer: "Reduz o nível de alerta",
       },
     ],
   },
@@ -123,7 +148,7 @@ const data = [
       {
         question: "Qual é uma das soluções propostas para reduzir o impacto ambiental das bitucas de cigarro?",
         options: [
-          "Incentivar campanhas de conscientização e instalação de lixeiras específicas para bitucas  ",
+          "Incentivar campanhas de conscientização e instalação de lixeiras específicas para bitucas.",
            "Proibir completamente o uso de cigarros.", 
            "Criar produtos alternativos que não poluam.", 
            "Aumentar os impostos sobre cigarros."
