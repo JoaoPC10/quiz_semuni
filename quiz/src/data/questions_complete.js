@@ -35,30 +35,55 @@ const data = [
     category: "Os perigos do Cigarro Eletrônico",
     questions: [
       {
-        question: "Principail fator de risco associado ao uso do cigarro eletrônico?",
-        options: ["Cancêr", "Rrejeição Social", "Estresse", "Fome"],
-        answer: "Cancêr",
-        tip: "Causa muitas mortes",
+        question: " Quais são as substâncias tóxicas presentes nos cigarros eletrônicos que podem causar danos similares aos do cigarro convencional e seus efeitos no organismo? Quais são as substâncias tóxicas presentes nos cigarros eletrônicos que podem causar danos similares aos do cigarro convencional e seus efeitos no organismo?",
+        options: [
+          "Glicerol e álcool, que aumentam a hidratação do corpo.", 
+          "Nicotina e formaldeído, que podem causar dependência e danos pulmonares.", 
+          "Ácidos e vitaminas, que aumentam a imunidade.",
+           "Oxigênio e nitrogênio, que estimulam a circulação sanguínea."
+          ],
+        answer: "Nicotina e formaldeído, que podem causar dependência e danos pulmonares.",
+        tip: "Principal componente do cigarro!",
       },
       {
-        question: "Cite 1 substância que é inalada pelo corpo humano com o consumo do cigarro eletrônico:",
-        options: ["Vapor de Água", "Poeira", "Nicotina", "Plástico"],
-        answer: "Nicotina",
+        question: "Que evidências científicas sustentam que o uso de cigarros eletrônicos pode levar a complicações pulmonares graves, comparáveis às causadas pelo cigarro convencional?",
+        options: [
+          "Estudos que mostram apenas efeitos positivos no trato respiratório.",
+           "Relatos de falta de evidências sobre qualquer dano pulmonar.", 
+           "Pesquisas indicando que vapores contêm partículas nocivas que danificam o tecido pulmonar.", 
+           "Estudos demonstrando que o vapor é seguro para o uso a longo prazo."
+          ],
+        answer: "Pesquisas indicando que vapores contêm partículas nocivas que danificam o tecido pulmonar.",
       },
       {
-        question: "Qual a principal doença que está associada ao uso excessivo do cigarro eletrônico/vape, gerando lesão pulmonar?",
-        options: ["Catapora", "EVALI", "Gripe", "Herpes"],
-        answer: "EVALI",
+        question: "Quais são as principais estratégias do Ministério da Saúde para combater o uso de cigarro eletrônico e apoiar os usuários na cessação do tabagismo?",
+        options: [
+          "Incentivar a substituição do cigarro convencional pelo eletrônico.", 
+          "Proibir o uso do cigarro convencional e liberar o eletrônico.", 
+          "Campanhas de conscientização, atendimento psicológico e políticas de restrição ao acesso.", 
+          "Venda irrestrita de cigarros eletrônicos para uso supervisionado."
+        ],
+        answer: "Campanhas de conscientização, atendimento psicológico e políticas de restrição ao acesso.",
       },
       {
-        question: "Qual a principal forma de tratamento para a doença EVALI?",
-        options: ["Remédios", "Ir ao SUS", "Fumar mais", "Suspensão do uso do cigarro eletrônico."],
-        answer: "Suspensão do uso do cigarro eletrônico.",
+        question: "Quais são as diferenças e semelhanças entre os impactos dos cigarros eletrônicos e dos convencionais na incidência de doenças cardiovasculares e respiratórias?",
+        options: [
+          "Ambos afetam o coração e pulmões, mas os eletrônicos contêm apenas substâncias inofensivas.",
+           "Os cigarros eletrônicos afetam apenas os pulmões, enquanto os convencionais não afetam a saúde.",
+            "Os dois aumentam os riscos para doenças cardíacas e respiratórias devido à nicotina e outras toxinas.", 
+            "Os cigarros convencionais são mais perigosos, mas os eletrônicos fortalecem o sistema respiratório."
+          ],
+        answer: "Os dois aumentam os riscos para doenças cardíacas e respiratórias devido à nicotina e outras toxinas.",
       },
       {
-        question: "Qual dos fatores a seguir é uma preocupação crescente entre especialistas em saúde quanto ao uso prolongado de cigarros eletrônicos?",
-        options: ["A ausência de produtos químicos no vapor liberado, tornando-o inofensivo.", "A falta de popularidade dos cigarros eletrônicos em ambientes fechados.", "A baixa aceitação dos dispositivos entre os jovens e adolescentes.", "A possibilidade de dependência devido à presença de nicotina em alguns líquidos para vaporização."],
-        answer: "A possibilidade de dependência devido à presença de nicotina em alguns líquidos para vaporização.",
+        question: "Quais desafios as autoridades de saúde enfrentam ao tentar controlar a disseminação do uso de cigarros eletrônicos, e como as consultas públicas, como a da Anvisa, contribuem para a criação de regulamentações eficazes?",
+        options: [
+          "Falta de informações sobre os efeitos; as consultas públicas ajudam a entender o impacto e a desenvolver políticas.",
+           "Facilidade de controle do uso e regulamentação clara e rápida.", 
+           "Aumento do uso de cigarros convencionais como alternativa; as consultas tornam o processo mais difícil.", 
+           "As autoridades já controlam bem o uso, não há necessidade de consultas públicas."
+          ],
+        answer: "Falta de informações sobre os efeitos; as consultas públicas ajudam a entender o impacto e a desenvolver políticas.",
       },
     ],
   },
@@ -66,44 +91,44 @@ const data = [
     category: "Impacto Ambiental do Tabagismo",
     questions: [
       {
-        question: "Qual é uma das principais formas como o cigarro contribui para a poluição dos oceanos?",
+        question: "Qual é o principal componente das bitucas de cigarro que causa poluição ambiental?",
         options: [
-          "As bitucas de cigarro são uma das principais fontes de microplásticos nos oceanos.",
-          "A fumaça do cigarro afeta diretamente a vida marinha.",
-          "A produção do cigarro não gera resíduos poluentes.",
-          "As bitucas de cigarro ajudam a filtrar a água dos rios antes de chegar ao oceano.",
+          "Papel",
+          "Nicotina",
+          "Filtro",
+          "Tabaco",
         ],
-        answer: "As bitucas de cigarro são uma das principais fontes de microplásticos nos oceanos.",
+        answer: "Filtro",
       },
       {
-        question: "Como a produção de tabaco impacta a sustentabilidade ambiental?",
+        question: "Qual é o principal impacto ambiental das bitucas de cigarro descartadas de maneira inadequada?",
         options: [
-          "Não gera impacto ambiental significativo", 
-          "Demanda uma grande quantidade de água e gera desmatamento.", 
-          "Usa pouca água e ajuda a conservar o solo.", 
-          "Melhora a biodiversidade nas áreas de cultivo."
+          "Poluição sonora", 
+          "Contaminação do solo e da água", 
+          "Aumento da temperatura global", 
+          "Efeito estufa"
         ],
-        answer: "Demanda uma grande quantidade de água e gera desmatamento.",
+        answer: "Contaminação do solo e da água",
       },
       {
-        question: "O descarte inadequado de bitucas de cigarro no ambiente causa quais dos problemas abaixo?",
+        question: "Além do filtro, quais outros componentes das bitucas de cigarro podem ser prejudiciais ao meio ambiente?",
         options: [
-          "As bitucas de cigarro aceleram o processo de compostagem em áreas verdes.", 
-          "Elas não representam nenhum risco, pois são biodegradáveis.", 
-          "Podem ser ingeridas por animais, causando intoxicação e problemas de saúde.", 
-          "Ajudam na preservação de áreas naturais ao acumular nutrientes."
+          "Apenas tabaco", 
+          "Metais pesados e produtos químicos tóxicos", 
+          "Somente papel", 
+          "Nenhum, são inofensivas"
         ],
-        answer: "Podem ser ingeridas por animais, causando intoxicação e problemas de saúde.",
+        answer: "Metais pesados e produtos químicos tóxicos",
       },
       {
-        question: "Qual das alternativas a seguir representa um efeito negativo dos produtos químicos descartados dos cigarros no solo?",
+        question: "Qual é uma das soluções propostas para reduzir o impacto ambiental das bitucas de cigarro?",
         options: [
-          "Os produtos químicos aumentam a fertilidade do solo para outras plantas.",
-           "Esses produtos são rapidamente absorvidos e não geram danos.", 
-           "Eles contaminam o solo e podem afetar negativamente a saúde das plantas e animais.", 
-           "Eles se decompõem rapidamente e ajudam no crescimento de outras culturas."
+          "Incentivar campanhas de conscientização e instalação de lixeiras específicas para bitucas  ",
+           "Proibir completamente o uso de cigarros.", 
+           "Criar produtos alternativos que não poluam.", 
+           "Aumentar os impostos sobre cigarros."
           ],
-        answer: "Eles contaminam o solo e podem afetar negativamente a saúde das plantas e animais.",
+        answer: "Incentivar campanhas de conscientização e instalação de lixeiras específicas para bitucas.",
       },
       {
         question:
